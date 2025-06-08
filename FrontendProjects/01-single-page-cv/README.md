@@ -1,100 +1,31 @@
-# Front-end Projects from Roadmap.sh
+# Single-Page CV
 
-This repository contains front-end projects built following the [roadmap.sh](https://roadmap.sh/) front-end developer path.
+Create a single-page HTML CV to showcase your career history
 
-## Projects List
+## Goal
 
-[Basic HTML Website](https://roadmap.sh/projects/basic-html-website), [Personal Portfolio](https://roadmap.sh/projects/portfolio-website),\
-[Changelog Component](https://roadmap.sh/projects/changelog-component), [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards),\
-[Datepicker UI](https://roadmap.sh/projects/datepicker-ui), [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui),\
-[Image Grid Layout](https://roadmap.sh/projects/image-grid), [Tooltip UI](https://roadmap.sh/projects/tooltip-ui),\
-[Simple Tabs](https://roadmap.sh/projects/simple-tabs), [Cookie Consent](https://roadmap.sh/projects/cookie-consent),\
-[Restricted Textarea](https://roadmap.sh/projects/restricted-textarea), [Accordion UI](https://roadmap.sh/projects/accordion),\
-[Custom Dropdown](https://roadmap.sh/projects/custom-dropdown), [Task Tracker](https://roadmap.sh/projects/task-tracker-js),\
-[Github Random Repo](https://roadmap.sh/projects/github-random-repo), [Reddit Client](https://roadmap.sh/projects/reddit-client),\
-[Temperature Converter](https://roadmap.sh/projects/temperature-converter), [Age Calculator](https://roadmap.sh/projects/age-calculator),
+> The goal of this project is to teach you how to create a structured, single-page CV using only HTML. You will focus on laying out your education, skills, and career history in a clean, semantic manner. Styling will be addressed in a later project.
 
+## Project Detail
 
+In this project, you are required to create a single-page CV (Curriculum Vitae) using only HTML. Your webpage should look like the following image:
 
-Click any of the images below to view the readme and live demo of the project.
+![Single-Page HTML CV](https://assets.roadmap.sh/guest/resume-template-zyl70.png)
 
-<p align="left">
-  <a href='/FrontendProjects/01-single-page-cv/'>
-    <img width="48%" src="./assets/images/single-page-cv.png" alt="single page cv" />
-  </a>
-  <a href='/FrontendProjects/02-basic-html-website/'>
-    <img width="48%" src="./assets/images/basic-html-website.png" alt="basic html website" />
-  </a>
-</p>
+Key requirements for this project:
 
-<p align="left">
-  <a href='/FrontendProjects/03-personal-portfolio/'>
-    <img width="48%" src="./assets/images/personal-portfolio.png" alt="personal portfolio" />
-  </a>
-  <a href='/FrontendProjects/04-changelog-component/'>
-    <img width="48%" src="./assets/images/changelog-component.png" alt="changelog component" />
-  </a>
-</p>
+Semantic HTML: Use appropriate HTML tags to structure your CV.
+SEO Meta Tags: Include essential meta tags for SEO.
+Open Graph (OG) Tags: Add OG tags for better social media sharing.
+Favicon: Add a favicon for your CV page.
+The structure of your CV should be easily understandable and ready for styling in a future project.
 
-<p align="left">
-  <a href='/FrontendProjects/05-testimonial-cards/'>
-    <img width="48%" src="./assets/images/testimonial-cards.png" alt="testimonial cards" />
-  </a>
-  <a href='/FrontendProjects/06-datepicker-ui/'>
-    <img width="48%" src="./assets/images/datepicker-ui.png" alt="datepicker ui" />
-  </a>
-</p>
+Submission Checklist:
+Semantically correct HTML structure.
+Single-page layout with sections for education, skills, and career history.
+SEO meta tags in the head section.
+OG tags for better social media sharing.
+A favicon linked in the head section.
+By completing this project, you’ll gain a solid understanding of how to create a single-page CV using HTML, apply basic SEO principles, and prepare your webpage for future styling. This foundation will enable you to move on to styling the CV using CSS in subsequent projects.
 
-<p align="left">
-  <a href='/FrontendProjects/07-accessible-form-ui/'>
-    <img width="48%" src="./assets/images/accessible-form-ui.png" alt="accessible form ui" />
-  </a>
-  <a href='/FrontendProjects/08-image-grid-layout/'>
-    <img width="48%" src="./assets/images/image-grid-layout.png" alt="image grid layout" />
-  </a>
-</p>
-
-<p align="left">
-  <a href='/FrontendProjects/09-tooltip-ui/'>
-    <img width="48%" src="./assets/images/tooltip-ui.png" alt="tooltip ui" />
-  </a>
-  <a href='/FrontendProjects/10-simple-tabs/'>
-    <img width="48%" src="./assets/images/simple-tabs.png" alt="simple tabs" />
-  </a>
-</p>
-
-<p align="left">
-  <a href='/FrontendProjects/11-cookie-consent/'>
-    <img width="48%" src="./assets/images/cookie-consent.png" alt="cookie consent" />
-  </a>
-  <a href='/FrontendProjects/12-restricted-textarea/'>
-    <img width="48%" src="./assets/images/restricted-textarea.png" alt="restricted textarea" />
-  </a>
-</p>
-
-<p align="left">
-  <a href='/FrontendProjects/13-accordion-ui/'>
-    <img width="48%" src="./assets/images/accordion-ui.png" alt="accordion ui" />
-  </a>
-  <a href='/FrontendProjects/14-custom-dropdown/'>
-    <img width="48%" src="./assets/images/custom-dropdown.png" alt="custom dropdown" />
-  </a>
-</p>
-
-<p align="left">
-  <a href='/FrontendProjects/15-task-tracker/'>
-    <img width="48%" src="./assets/images/task-tracker.png" alt="task tracker js" />
-  </a>
-  <a href='/FrontendProjects/16-github-random-repo/'>
-    <img width="48%" src="./assets/images/github-random-repo.png" alt="github random repo" />
-  </a>
-</p>
-
-<p align="left">
-  <a href='/FrontendProjects/17-reddit-client/'>
-    <img width="48%" src="./assets/images/reddit-client.png" alt="reddit client" />
-  </a>
-  <a href='/FrontendProjects/18-temperature-converter/'>
-    <img width="48%" src="./assets/images/temperature-converter.png" alt="temperature converter" />
-  </a>
-</p>
+project page URL : [project page URL](https://roadmap.sh/projects/single-page-cv) - https://roadmap.sh/projects/single-page-cv
