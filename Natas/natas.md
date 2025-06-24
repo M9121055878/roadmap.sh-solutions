@@ -1,21 +1,30 @@
 # overthewire.org
 
-The description of each step is essentially derived from the previous step. For example, the solution to Natas1 is something that must be found in Natas0.
+> [!Important] 
+> The description of each step is essentially derived from the previous step. For example, the solution to Natas1 is something that must be found in Natas0.
 
-## natas0
+- All user is name of levels
 
-He himself gave us the username and password.
+        http://natas`X`.natas.labs.overthewire.org/
 
-> natas0
+        user:natas`X`
+        pass:*******
 
-## natas1
+## natas0 http://natas0.natas.labs.overthewire.org/
+
+- He himself gave us the username and password in overthewire.org for start HACKGAME.
+
+        user:natas0
+        pass:natas0
+
+## natas1 http://natas1.natas.labs.overthewire.org/
 
 1. Get the page's source.
 2. Look the HTML comment.
 
         <!--The password for natas1 is 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq -->
 
-## natas2
+## natas2 http://natas2.natas.labs.overthewire.org/
 
 - You cannot right-click.
 1. Get the page's source.
@@ -23,7 +32,7 @@ He himself gave us the username and password.
 
         <!--The password for natas2 is TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI -->
 
-## natas3
+## natas3 http://natas3.natas.labs.overthewire.org/
 
 - There is nothing in the page's source.
 1. Get the page's source.
@@ -43,4 +52,42 @@ He himself gave us the username and password.
         eve:zo4mJWyNj2
         mallory:9urtcpzBmH
 
-## natas4
+## natas4 http://natas4.natas.labs.overthewire.org/
+
+- he have comment in page's source
+
+        <!-- Not even Google will find it this time... -->
+
+1. Sites often use a ‍‍‍‍‍‍‍‍`robots.txt` file in root of site to tell search engines what files and paths they should not see.
+
+        http://natas3.natas.labs.overthewire.org/robots.txt
+
+    in this file you can find a path : `/s3cr3t/`
+
+2. go to : `http://natas3.natas.labs.overthewire.org/s3cr3t/`
+
+    in this path you can find : `users.txt`
+
+        natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
+
+## natas5 http://natas5.natas.labs.overthewire.org/
+
+- he has a text message :
+
+        You are visiting from "" while authorized users should come only from "http://natas5.natas.labs.overthewire.org/"
+
+2. When you click `Reload Page`, the message changes to this :
+
+        Access disallowed. You are visiting from "http://natas4.natas.labs.overthewire.org/index.php" while authorized users should come only from "http://natas5.natas.labs.overthewire.org/"
+
+    you need change `Referer` HTTP header
+
+3. for change referer http header, i use `curl`
+
+    i run ubuntu in windows with `wsl`
+
+        ~$ curl -u natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ --referer http://natas5.natas.labs.overthewire.org/ http://natas4.natas.labs.overthewire.org
+
+    tada :
+
+        Access granted. The password for natas5 is 0n35PkggAPm2zbEpOU802c0x0Msn1ToK
