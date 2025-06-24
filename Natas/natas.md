@@ -1,5 +1,7 @@
 # overthewire.org
 
+<!-- Note, Tip, Important, Warning, Caution -->
+
 > [!Important] 
 > The description of each step is essentially derived from the previous step. For example, the solution to Natas1 is something that must be found in Natas0.
 
@@ -76,13 +78,13 @@
 
         You are visiting from "" while authorized users should come only from "http://natas5.natas.labs.overthewire.org/"
 
-2. When you click `Reload Page`, the message changes to this :
+1. When you click `Reload Page`, the message changes to this :
 
         Access disallowed. You are visiting from "http://natas4.natas.labs.overthewire.org/index.php" while authorized users should come only from "http://natas5.natas.labs.overthewire.org/"
 
     you need change `Referer` HTTP header
 
-3. for change referer http header, i use `curl`
+2. for change referer http header, i use `curl`
 
     i run ubuntu in windows with `wsl`
 
@@ -91,3 +93,21 @@
     tada :
 
         Access granted. The password for natas5 is 0n35PkggAPm2zbEpOU802c0x0Msn1ToK
+
+## natas6 http://natas6.natas.labs.overthewire.org/
+
+- he has a text message :
+
+        Access disallowed. You are not logged in
+
+1. Okay. Matt's login information must be stored somewhere.
+
+    So first I went to check the `storage`, I'm using `Chrome`.
+
+2. Pressing the `F12` button in Google Chrome opens the developer tools, in the `Application` tab, I look for something in storage and found it in the `Cookies` section.
+   
+        loggedin : 0
+
+3. cheange loggedin to `1` and refresh.
+
+        Access granted. The password for natas6 is 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
