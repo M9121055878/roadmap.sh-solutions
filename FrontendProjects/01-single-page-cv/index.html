@@ -1,146 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mahdi Goudini - CV</title>
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Single Page CV of Mahdi Goudini, a Developer." />
-    <meta name="keywords" content="Frontend Developer, HTML, CSS, JavaScript, Resume, Web Development" />
-    <meta name="author" content="Mahdi Goudini" />
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Mahdi Goudini - Developer" />
-    <meta property="og:description" content="Single Page CV of Mahdi Goudini, a Developer." />
-    <meta property="og:image" content="https://res.cloudinary.com/duidrgg1k/image/upload/v1725421776/male-technologist_n0fbey.png" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://MahdiGoudini.ir" />
-    <!-- Favicon -->
-    <link rel="icon" href="https://MahdiGoudini.ir/favicon.ico" type="image/x-icon" />
-    <!-- Stylesheet -->
-     <style>
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 0;
-        padding: 20px;
-        background-color: #f4f4f4;
-      }
-      h1 {
-        color: #333;
-      }
-      h2 {
-        color: green;
-      }
-      h3 {
-        color: #007bff;
-      }
-      p {
-        margin: 0;
-      }
-      .skills, .education, .experience, .internet, .contact-info {
-        background-color: #fff;
-        padding: 15px;
-        margin-bottom: 20px;
-        border-radius: 5px;
-      }
-      .experience article {
-        margin-bottom: 15px;
-      }
-    </style>
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahdi Goudini - CV</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Single Page CV of Mahdi Goudini, a Developer." />
+  <meta name="keywords" content="Frontend Developer, HTML, CSS, JavaScript, Resume, Web Development" />
+  <meta name="author" content="Mahdi Goudini" />
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Mahdi Goudini - Developer" />
+  <meta property="og:description" content="Single Page CV of Mahdi Goudini, a Developer." />
+  <meta property="og:image"
+    content="https://res.cloudinary.com/duidrgg1k/image/upload/v1725421776/male-technologist_n0fbey.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://MahdiGoudini.ir" />
+  <!-- Favicon -->
+  <link rel="icon" href="https://MahdiGoudini.ir/favicon.ico" type="image/x-icon" />
+  <!-- Stylesheet -->
+  <style>
+
+    @font-face{
+      font-family: 'Font-Thin-Mono';
+      src: url('../../asset/font/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
+          url('../../asset/font/ttf/JetBrainsMono-Thin.ttf') format('truetype');
+    }
+
+    @font-face{
+      font-family: 'Font-Regular-Mono';
+      src: url('../../asset/font/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
+          url('../../asset/font/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    }
+
+    @font-face{
+      font-family: 'Font-Bold-Mono';
+      src: url('../../asset/font/webfonts/JetBrainsMono-Bold.woff2') format('woff2'),
+          url('../../asset/font/ttf/JetBrainsMono-Bold.ttf') format('truetype');
+    }
+
+    @font-face{
+      font-family: 'Font-Italic-Mono';
+      src: url('../../asset/font/webfonts/JetBrainsMono-Italic.woff2') format('woff2'),
+          url('../../asset/font/ttf/JetBrainsMono-Italic.ttf') format('truetype');
+    }
+
+    * {
+      font-size: 14px;
+      line-height: 140%;
+      font-family: 'Font-Thin-Mono';
+      text-rendering: optimizeLegibility;
+      font-feature-settings: "calt" on, "ss01" on, "cv03" on, "zero" on;
+      -webkit-font-feature-settings: "calt" on, "ss01" on, "cv03" on, "zero" on;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .font_thin{
+      font-family: 'Font-Thin-Mono';
+    }
+
+    .font_Regular{
+      font-family: 'Font-Regular-Mono';
+    }
+
+    .font_thin{
+      font-family: 'Font-Thin-Mono';
+    }
+
+    .font_Italic{
+      font-family: 'Font-Italic-Mono';
+    }
 
 
 
-    <main>
-      <hr style="border: 1px solid #333;" />
-      
-      <h1>Mahdi Goudini</h1>
-      <h2>Developer</h2>
+    body {
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background-color: rgb(31, 31, 31);
+    }
 
-      <section class="contact-info">
-        <address>
-          123 Avocado Street<br />
-          Sunshine, AZ 12345
-          <p>(98) 902-0120014</p>
-          <p>no_reply@example.com</p>
-        </address>
-      </section>
+    h1 {
+      color: #333;
+    }
 
-      <section class="skills">
-        <h2 class="section-title">Skills</h2>
+    h2 {
+      color: green;
+    }
+
+    h3 {
+      color: #007bff;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .skills,
+    .education,
+    .experience,
+    .internet,
+    .contact-info {
+      background-color: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+
+    .experience article {
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+
+
+<body>
+<p>
+  <p style="color: rgb(197, 134, 192);">@font-face<span style="color: rgb(248, 215, 11);">{</span></p>
+      <p style="color: rgb(212, 212, 212);">font-family: 'JetBrains Mono';</p>
+      <p style="color: rgb(212, 212, 212);">text-rendering: optimizeLegibility;</p>
+      <p style="color: rgb(212, 212, 212);">font-feature-settings: "ss01", "cv03", "zero";</p>
+      <p style="color: rgb(212, 212, 212);">-webkit-font-feature-settings: "liga" on, "calt" on;</p>
+      <p style="color: rgb(212, 212, 212);">  &lt;!-- Stylesheet --&gt; </p>
+    }
+</p>
+  <main>
+    <hr style="border: 1px solid #333;" />
+
+    <h1 style="font-weight: normal;font-style: italic;">Mahdi Goudini == 0</h1>
+    <h2>Developer</h2>
+
+    <section class="contact-info">
+      <address>
+        123 Avocado Street<br />
+        Sunshine, AZ 12345
+        <p>(98) 902-0120014</p>
+        <p>no_reply@example.com</p>
+      </address>
+    </section>
+
+    <section class="skills">
+      <h2 class="section-title">Skills</h2>
+      <p>
+        HTML, CSS, JavaScript, TypeScript, React, Agile Methodologies,
+        Accessibility, Figma, Git, Jira
+      </p>
+    </section>
+
+    <section class="education">
+      <h2 class="section-title">Education</h2>
+      <h3>Western Governors University, UT - B.S. Computer Science</h3>
+      <p>
+        January 2022 to May 2023<br />
+        I gained experience in software engineering by analyzing and
+        implementing software systems, developing object-oriented Java
+        programs, and effectively managing data using SQL.
+      </p>
+    </section>
+
+    <section class="experience">
+      <h2 class="section-title">Experience</h2>
+      <article>
+        <h3>EIS Group, CA - Frontend Engineer</h3>
+        <p>March 2022 to Present</p>
+        <ul>
+          <li>
+            Delivering pixel-perfect implementations using React and
+            TypeScript.
+          </li>
+          <li>
+            Collaborating with designers, backend engineers, and delivery
+            managers to size and scope work.
+          </li>
+          <li>
+            Create training materials and conduct training sessions to onboard
+            new team members.
+          </li>
+        </ul>
         <p>
-          HTML, CSS, JavaScript, TypeScript, React, Agile Methodologies,
-          Accessibility, Figma, Git, Jira
+          Skills: React, TypeScript, Jira, Figma, Design Systems, Enterprise
+          Software
         </p>
-      </section>
+      </article>
 
-      <section class="education">
-        <h2 class="section-title">Education</h2>
-        <h3>Western Governors University, UT - B.S. Computer Science</h3>
+      <article>
+        <h3>Banyan Labs & Persevere, TN - Lead Instructor & Developer</h3>
+        <p>August 2019 - March 2022</p>
+        <ul>
+          <li>
+            Lead multiple teams of developers in delivering software solutions
+            to clients.
+          </li>
+          <li>
+            Coordinate with company founder to strategize and execute on
+            company deliverables.
+          </li>
+          <li>
+            Craft and deliver curriculum assessments for a full-stack coding
+            bootcamp.
+          </li>
+        </ul>
         <p>
-          January 2022 to May 2023<br />
-          I gained experience in software engineering by analyzing and
-          implementing software systems, developing object-oriented Java
-          programs, and effectively managing data using SQL.
+          Skills: JavaScript, React, Node.js, Express, MongoDB, Agile
+          Methodologies, Leadership, Mentoring
         </p>
-      </section>
+      </article>
+    </section>
 
-      <section class="experience">
-        <h2 class="section-title">Experience</h2>
-        <article>
-          <h3>EIS Group, CA - Frontend Engineer</h3>
-          <p>March 2022 to Present</p>
-          <ul>
-            <li>
-              Delivering pixel-perfect implementations using React and
-              TypeScript.
-            </li>
-            <li>
-              Collaborating with designers, backend engineers, and delivery
-              managers to size and scope work.
-            </li>
-            <li>
-              Create training materials and conduct training sessions to onboard
-              new team members.
-            </li>
-          </ul>
-          <p>
-            Skills: React, TypeScript, Jira, Figma, Design Systems, Enterprise
-            Software
-          </p>
-        </article>
+    <section class="internet">
+      <h2 class="section-title">Across the Internet</h2>
+      <a href="https://MahdiGoudini.ir">MahdiGoudini.ir</a><br />
+      <a
+        href="https://www.linkedin.com/in/mahdi-goudini-518b1218b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bxl6uQiEeRD2xyyIAi81EBw%3D%3D">LinkedIn</a><br />
+    </section>
+  </main>
+</body>
 
-        <article>
-          <h3>Banyan Labs & Persevere, TN - Lead Instructor & Developer</h3>
-          <p>August 2019 - March 2022</p>
-          <ul>
-            <li>
-              Lead multiple teams of developers in delivering software solutions
-              to clients.
-            </li>
-            <li>
-              Coordinate with company founder to strategize and execute on
-              company deliverables.
-            </li>
-            <li>
-              Craft and deliver curriculum assessments for a full-stack coding
-              bootcamp.
-            </li>
-          </ul>
-          <p>
-            Skills: JavaScript, React, Node.js, Express, MongoDB, Agile
-            Methodologies, Leadership, Mentoring
-          </p>
-        </article>
-      </section>
-
-      <section class="internet">
-        <h2 class="section-title">Across the Internet</h2>
-        <a href="https://MahdiGoudini.ir">MahdiGoudini.ir</a><br />
-        <a href="https://www.linkedin.com/in/mahdi-goudini-518b1218b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bxl6uQiEeRD2xyyIAi81EBw%3D%3D">LinkedIn</a><br />
-      </section>
-    </main>
-  </body>
 </html>
