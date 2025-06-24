@@ -44,5 +44,3 @@ He himself gave us the username and password.
         mallory:9urtcpzBmH
 
 ## natas4
-
-- 
